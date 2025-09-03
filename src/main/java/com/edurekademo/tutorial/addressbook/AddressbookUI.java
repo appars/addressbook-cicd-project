@@ -71,7 +71,7 @@ public class AddressbookUI extends UI {
          */
         newContact.addClickListener(e -> contactForm.edit(new Contact()));
 
-        filter.setInputPrompt("Filter contacts...");
+        filter.setInputPrompt("Addressbook Release V1.0 with Azure Pipeline");
         filter.addTextChangeListener(e -> refreshContacts(e.getText()));
 
         contactList
